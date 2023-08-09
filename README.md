@@ -1,27 +1,10 @@
 # React + TypeScript + Vite
+🚀 Ignite Feed - Projeto React da plataforma Rocketseat. Trata-se de um projeto que simula uma rede social, permitindo a exibição de vários posts em uma linha do tempo. Os usuários têm a opção de adicionar comentários, curtir e excluir posts, conforme desejarem.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Neste projeto acompanhado pelo instrutor @Diego Schell Fernandes, CTO at Rocketseat, desenvolvi utilizando React e TypeScript. 🌟
 
-Currently, two official plugins are available:
+🚀Estudamos conceitos fundamentais do React, como componentes, propriedades, estados, imutabilidade, e estilização dentro do react para criar uma aplicação moderna e interativa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/marialuizalacerda/01-fundamentos-reactjs-ts/assets/90807108/08e1ecd4-9d38-4f9b-93f3-f33a6d1502e1)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
